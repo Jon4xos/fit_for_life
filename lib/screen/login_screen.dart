@@ -19,6 +19,7 @@ class _LoginScreenState extends State<LoginScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: colorPrimary,
+      resizeToAvoidBottomInset: false,
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 15.0),
@@ -64,7 +65,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     width: 10.0,
                   ),
                   const Text(
-                    'JOT',
+                    'FFL',
                     style: TextStyle(
                       color: colorWhite,
                       fontSize: 25.0,
